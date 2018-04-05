@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @layout.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @layout.body %>
+</p>
+
+<%= link_to 'Edit', edit_layout_path(@layout) %> |
+<%= link_to 'Back', layouts_path %>
